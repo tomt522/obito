@@ -21,7 +21,7 @@ config: {
       age: '16+',
       height: 'Not Found',
       choise: 'Pizza 🙂🫶🏻',
-      youtube : ' এইসব আমার ধারা সম্বব না🙂
+      youtube : ' এইসব আমার ধারা সম্বব না🙂 '
     };
 
     const bold = 'https://i.imgur.com/f1f3RCU.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id

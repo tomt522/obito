@@ -35,18 +35,18 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "",
-    "100071009500533"
+    "61559427406776",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      ""
+      "61559427406776"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🦋𝗜𝗧𝗔𝗖𝗛𝗜 ✞︎ 𝗨𝗖𝗛𝗜𝗛𝗔 ♂️🌟☄️",
-  "prefix": "Itachi",
+  "nickNameBot": "𝐓𝐎𝐌💫",
+  "prefix": "-",
   "BaYjidnapi": "",
   "api": "",
   "api2": "",

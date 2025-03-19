@@ -16,11 +16,11 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: '𝗛𝗨𝗦𝗦𝗔𝗜𝗡 ',
-      gender: 'MaL(মাল)',
+      name: '𝐑𝐈𝐅𝐀𝐓',
+      gender: 'MALE',
       age: '16+',
-      height: 'Not Found',
-      choise: 'Pizza 🙂🫶🏻',
+      height: 'Jaina lav nai muri khaw🦆',
+      choise: 'muri khaw',
       youtube : ' এইসব আমার ধারা সম্বব না🙂 '
     };
 

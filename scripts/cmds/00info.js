@@ -33,11 +33,11 @@ module.exports = {
   },
 
   sendInfo: async function (message) {
-    const botName = " 🦋𝗜𝗧𝗔𝗖𝗛𝗜 ✞︎ 𝗨𝗖𝗛𝗜𝗛𝗔 ♂️🌟☄️ ";
-    const botPrefix = "Itachi";
-    const authorName = "𝗛𝗨𝗦𝗦𝗔𝗜𝗡";
-    const authorFB = "facebook.com/1BFdB17Zhw/";
-    const authorInsta = "Loading.....";
+    const botName = " 𝐓𝐎𝐌💫 ";
+    const botPrefix = "-";
+    const authorName = "𝐑𝐈𝐅𝐀𝐓";
+    const authorFB = "https://www.facebook.com/rifat5xr";
+    const authorInsta = "j_r_tom";
     const status = " 𝗦𝗶𝗻𝗴𝗹𝗲";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/Ayan.json'));

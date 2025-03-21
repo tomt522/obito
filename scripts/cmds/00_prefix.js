@@ -22,7 +22,7 @@ body: `
 ‣ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 ⓕ
 ‣ https://www.facebook.com/rifat5xr
 \n\n\n  `,
-attachment: await global.utils.getStreamFromURL("https://i.imgur.com/9G4kn83.jpeg")
+attachment: ")
 });
 }
 }

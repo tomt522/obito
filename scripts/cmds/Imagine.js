@@ -1,7 +1,7 @@
-module.exports = {
+ module.exports = {
   config: {
     name: "imagine",
-    aliases:["text2img", "gen"],
+    aliases: ["text2img", "gen"],
     version: "1.0",
     author: "♡︎ 𝐻𝑎𝑠𝑎𝑛 ♡︎",
     countDown: 3, 
@@ -26,21 +26,16 @@ module.exports = {
 
       let prompt = text;
 
-      
       const waitingMessage = await message.reply("✨ | creating your imagination...");
       api.setMessageReaction("⏱️", event.messageID, () => {}, true);
       const startTime = new Date().getTime();
 
-
-     
       const API = https://hasan-all-apis.onrender.com/imagine?prompt=${encodeURIComponent(prompt)};
 
-      
       const imageStream = await global.utils.getStreamFromURL(API);
       const endTime = new Date().getTime();
       const timeTaken = (endTime - startTime) / 1000;
 
-      
       await message.reply({
         body: Here is your generated image\n\n📝𝗽𝗿𝗼𝗺𝗽𝘁: ${prompt}\n⏱️𝗧𝗮𝗸𝗲𝗻 𝗧𝗶𝗺𝗲: ${timeTaken} second,
         attachment: imageStream,
@@ -48,7 +43,6 @@ module.exports = {
 
       api.setMessageReaction("✅", event.messageID, () => {}, true);
 
-      
       await api.unsendMessage(waitingMessage.messageID);
 
     } catch (error) {
@@ -57,3 +51,5 @@ module.exports = {
     }
   },
 };
+
+hasan-all-apis.onrender.com

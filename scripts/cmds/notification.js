@@ -35,7 +35,7 @@ module.exports = {
 		},
 		en: {
 			missingMessage: "Please enter the message you want to send to all groups",
-			notification: "Notification from admin bot to all chat groups (do not reply to this message)",
+			notification: "𝗡𝗢𝗧𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗙𝗥𝗢𝗠 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 𝗥𝗜𝗙𝗔𝗧 𝗝𝗔𝗠𝗜𝗟📌 (𝗱𝗼 𝗻𝗼𝘁 𝗿𝗲𝗽𝗹𝘆 𝘁𝗼 𝘁𝗵𝗶𝘀 𝗺𝗲𝘀𝘀𝗮𝗴𝗲)",
 			sendingNotification: "Start sending notification from admin bot to %1 chat groups",
 			sentNotification: "✅ Sent notification to %1 groups successfully",
 			errorSendingNotification: "An error occurred while sending to %1 groups:\n%2"
